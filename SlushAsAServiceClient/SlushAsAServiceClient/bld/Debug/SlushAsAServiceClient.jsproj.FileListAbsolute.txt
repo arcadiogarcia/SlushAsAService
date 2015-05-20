@@ -1,0 +1,15 @@
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bin\Debug\ReverseMap\resources.pri
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bin\Debug\AppxManifest.xml
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bin\Debug\SlushAsAServiceClient.build.appxrecipe
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\priconfig.xml
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\priconfig.xml.intermediate
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\layout.resfiles
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\layout.resfiles.intermediate
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\resources.resfiles
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\resources.resfiles.intermediate
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\pri.resfiles
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\pri.resfiles.intermediate
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\qualifiers.txt
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,14 @@
+css\default.css
+default.html
+images\logo.scale-100.png
+images\smalllogo.scale-100.png
+images\splashscreen.scale-100.png
+images\storelogo.scale-100.png
+js\default.js
+WinJS\css\ui-dark.css
+WinJS\css\ui-light.css
+WinJS\fonts\Symbols.ttf
+WinJS\js\en-US\ui.strings.js
+WinJS\js\WinJS.intellisense.js
+WinJS\js\WinJS.intellisense-setup.js
+WinJS\js\WinJS.js
