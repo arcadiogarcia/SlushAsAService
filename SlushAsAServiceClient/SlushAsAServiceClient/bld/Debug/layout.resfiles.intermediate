@@ -5,6 +5,7 @@ images\smalllogo.scale-100.png
 images\splashscreen.scale-100.png
 images\storelogo.scale-100.png
 js\default.js
+js\socket.io.js
 WinJS\css\ui-dark.css
 WinJS\css\ui-light.css
 WinJS\fonts\Symbols.ttf

@@ -15,23 +15,23 @@
 				document.getElementById("minutesSlider").addEventListener("change", updateMinutes);
 				updateMinutes();
 
-				//var socket = io();
-				//io.on('event', function (data) {
-				//    if (data.action == "status") {
-				//        if (data.status == "stop") {
-				//            document.getElementById("serverMessage").innerText = "Stopped at " + new Date();
-				//        }
-				//        if (data.status == "start") {
-				//            document.getElementById("serverMessage").innerText = "Started at " + new Date()+", will be active "+data.time+" minutes";
-				//        }
-				//    }
-				//});
-				//document.getElementById("startButton").addEventListener("click", function () {
-				//    io.emit('event', { "action": "start", "time": document.getElementById("minutesSlider").value });
-				//});
-				//document.getElementById("stopButton").addEventListener("click", function () {
-				//    io.emit('event', { "action": "stop" });
-				//});
+			    var socket = io("http://slushasaservice.azurewebsites.net");
+				io.on('event', function (data) {
+				    if (data.action == "status") {
+				        if (data.status == "stop") {
+				            document.getElementById("serverMessage").innerText = "Stopped at " + new Date();
+				        }
+				        if (data.status == "start") {
+				            document.getElementById("serverMessage").innerText = "Started at " + new Date()+", will be active "+data.time+" minutes";
+				        }
+				    }
+				});
+				document.getElementById("startButton").addEventListener("click", function () {
+				    io.emit('event', { "action": "start", "time": document.getElementById("minutesSlider").value });
+				});
+				document.getElementById("stopButton").addEventListener("click", function () {
+				    io.emit('event', { "action": "stop" });
+				});
 			} else {
 				// TODO: This application has been reactivated from suspension.
 				// Restore application state here.

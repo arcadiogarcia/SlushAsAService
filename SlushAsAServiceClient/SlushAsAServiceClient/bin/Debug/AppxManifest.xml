@@ -29,6 +29,7 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <Capability Name="privateNetworkClientServer" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="VisualStudio" Version="14.0" />

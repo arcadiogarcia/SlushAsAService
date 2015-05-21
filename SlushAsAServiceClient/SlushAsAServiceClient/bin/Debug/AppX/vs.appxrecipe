@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-21T17:32:02.800</Modified>
+      <Modified>2015-05-21T17:48:03.962</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-05-21T17:22:41.775</Modified>
+      <Modified>2015-05-21T17:41:15.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -46,7 +46,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-05-21T17:33:19.165</Modified>
+      <Modified>2015-05-21T17:47:58.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\js\socket.io.js">
+      <PackagePath>js\socket.io.js</PackagePath>
+      <Modified>2015-05-21T17:47:02.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
@@ -82,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-21T17:32:02.164</Modified>
+      <Modified>2015-05-21T17:48:03.547</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

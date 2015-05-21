@@ -15,8 +15,8 @@
 				document.getElementById("minutesSlider").addEventListener("change", updateMinutes);
 				updateMinutes();
 
-				var socket = io();
-				io.on('event', function (data) {
+			    var socket = io("http://slushasaservice.azurewebsites.net:8080");
+				socket.on('event', function (data) {
 				    if (data.action == "status") {
 				        if (data.status == "stop") {
 				            document.getElementById("serverMessage").innerText = "Stopped at " + new Date();
@@ -27,10 +27,10 @@
 				    }
 				});
 				document.getElementById("startButton").addEventListener("click", function () {
-				    io.emit('event', { "action": "start", "time": document.getElementById("minutesSlider").value });
+				    socket.emit('event', { "action": "start", "time": document.getElementById("minutesSlider").value });
 				});
 				document.getElementById("stopButton").addEventListener("click", function () {
-				    io.emit('event', { "action": "stop" });
+				    socket.emit('event', { "action": "stop" });
 				});
 			} else {
 				// TODO: This application has been reactivated from suspension.
