@@ -15,7 +15,7 @@
 				document.getElementById("minutesSlider").addEventListener("change", updateMinutes);
 				updateMinutes();
 
-			    var socket = io("http://slushasaservice.azurewebsites.net:8080");
+			    var socket = io("http://slushasaservice.azurewebsites.net");
 				socket.on('event', function (data) {
 				    if (data.action == "status") {
 				        if (data.status == "stop") {
