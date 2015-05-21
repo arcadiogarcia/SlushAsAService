@@ -21,14 +21,16 @@ socket.on("connect", function(socket){
        switch(data.action){
 			case "start":
 				output(1,function(){
+                          clearTimeout(intervalHolder);
                           intervalHolder = setTimeout(function(){
                                 output(0);
                                 socket.broadcast.emit('event', {"action":"status","status":"stop"}); 
-                          },data.time);
+                          },data.time*60*1000);
                  });
                  socket.broadcast.emit('event', {"action":"status","status":"start","time":data.time}); 
 			break;
 			case "stop":
+                clearTimeout(intervalHolder);
 				output(0);
 				socket.broadcast.emit('event', {"action":"status","status":"stop"}); 
 			break;

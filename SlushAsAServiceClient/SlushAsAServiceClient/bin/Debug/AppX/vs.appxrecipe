@@ -20,69 +20,69 @@
     <AppXManifest Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-20T14:15:57.291</Modified>
+      <Modified>2015-05-21T17:32:02.800</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-05-20T14:31:44.576</Modified>
+      <Modified>2015-05-21T17:22:41.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
-      <Modified>2015-04-02T15:55:54.000</Modified>
+      <Modified>2015-05-21T16:59:11.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
-      <Modified>2015-04-02T15:55:54.000</Modified>
+      <Modified>2015-05-21T16:59:11.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
-      <Modified>2015-04-02T15:55:54.000</Modified>
+      <Modified>2015-05-21T16:59:11.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
-      <Modified>2015-04-02T15:55:54.000</Modified>
+      <Modified>2015-05-21T16:59:11.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-05-20T14:28:11.962</Modified>
+      <Modified>2015-05-21T17:33:19.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
-      <Modified>2015-04-02T15:55:52.000</Modified>
+      <Modified>2015-05-21T16:59:10.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\WinJS\js\WinJS.js">
       <PackagePath>WinJS\js\WinJS.js</PackagePath>
-      <Modified>2015-04-02T15:55:52.000</Modified>
+      <Modified>2015-05-21T16:59:10.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\WinJS\js\WinJS.intellisense.js">
       <PackagePath>WinJS\js\WinJS.intellisense.js</PackagePath>
-      <Modified>2015-04-02T15:55:52.000</Modified>
+      <Modified>2015-05-21T16:59:10.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\WinJS\js\WinJS.intellisense-setup.js">
       <PackagePath>WinJS\js\WinJS.intellisense-setup.js</PackagePath>
-      <Modified>2015-04-02T15:55:52.000</Modified>
+      <Modified>2015-05-21T16:59:10.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2015-05-20T14:21:43.379</Modified>
+      <Modified>2015-05-21T16:59:11.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\WinJS\css\ui-dark.css">
       <PackagePath>WinJS\css\ui-dark.css</PackagePath>
-      <Modified>2015-04-02T15:55:52.000</Modified>
+      <Modified>2015-05-21T16:59:10.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\WinJS\css\ui-light.css">
       <PackagePath>WinJS\css\ui-light.css</PackagePath>
-      <Modified>2015-04-02T15:55:52.000</Modified>
+      <Modified>2015-05-21T16:59:10.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\WinJS\fonts\Symbols.ttf">
       <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
-      <Modified>2015-04-02T15:55:52.000</Modified>
+      <Modified>2015-05-21T16:59:10.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Arcadio\Documents\GitHub\SlushAsAService\SlushAsAServiceClient\SlushAsAServiceClient\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-20T14:15:56.663</Modified>
+      <Modified>2015-05-21T17:32:02.164</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
