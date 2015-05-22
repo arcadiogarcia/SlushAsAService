@@ -4,6 +4,6 @@
     <ReferenceCachePath>C:\Users\Arcadio\AppData\Local\Temp\SlushAsAServiceClient_refcache</ReferenceCachePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <DebuggerFlavor>AppHostDeviceDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

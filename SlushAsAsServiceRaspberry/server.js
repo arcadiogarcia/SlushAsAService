@@ -17,7 +17,18 @@ function output(value, callback){
     });
 }
 
-   socket.on("event",function(data){
+//Notify when started
+function beep(time,callback){
+output(1,function(){
+    setTimeout(function(){
+        output(0,callback);
+    },time);
+});
+}
+
+beep(100, function(){beep(100,function(){beep(300);});});
+
+socket.on("event",function(data){
        switch(data.action){
 			case "start":
                 console.log("Start signal:");
@@ -26,7 +37,7 @@ function output(value, callback){
                           clearTimeout(intervalHolder);
                           intervalHolder = setTimeout(function(){
                                 output(0);
-                                socket.broadcast.emit('event', {"action":"status","status":"stop"}); 
+                                socket.emit('event', {"action":"status","status":"stop"}); 
                           },data.time*60*1000);
                  });
                  socket.emit('event', {"action":"status","status":"start","time":data.time}); 
