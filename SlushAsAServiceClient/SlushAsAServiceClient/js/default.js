@@ -19,10 +19,10 @@
 				socket.on('event', function (data) {
 				    if (data.action == "status") {
 				        if (data.status == "stop") {
-				            document.getElementById("serverMessage").innerText = "Stopped at " + new Date();
+				            document.getElementById("serverMessage").innerText = "Stopped at " + new Date().toDateString();
 				        }
 				        if (data.status == "start") {
-				            document.getElementById("serverMessage").innerText = "Started at " + new Date()+", will be active "+data.time+" minutes";
+				            document.getElementById("serverMessage").innerText = "Started at " + new Date().toDateString()+", will be active "+data.time+" minutes";
 				        }
 				    }
 				});

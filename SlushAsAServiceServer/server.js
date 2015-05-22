@@ -10,7 +10,7 @@ server.listen(8080);
 io = io.listen(server);
 
 io.sockets.on('connection', function(socket){
-	console.log("Client disconnected");
+	console.log("Client connected");
 	socket.on('event', function (data) { 
 		switch(data.action){
 			case "start":
